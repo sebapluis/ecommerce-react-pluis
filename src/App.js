@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { FaBath } from "react-icons/fa";
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
