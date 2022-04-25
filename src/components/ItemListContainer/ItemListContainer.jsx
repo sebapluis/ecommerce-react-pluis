@@ -1,10 +1,12 @@
 import React from 'react';
+import ItemCount from '../ItemCount/Index';
 import './ItemListContainer.css';
 
 const ItemListContainer = ({greeting} ) => {
   return (
     <div className='principal'>
-      <h1 className='greeting'>{greeting}</h1>
+      <h2 className='greeting'>{greeting}</h2>
+      <ItemCount stock= {7} initial= {1} />
     </div>
   )
 }
